@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+}
+
+input[type=button] {
+    background-color: green;
+    color: white;
+}

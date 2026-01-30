@@ -1,0 +1,5 @@
+<div class="parent">
+    <p>This is parent component</p>
+    <p>Message from child component recieved using <b>event emission</b> : <i style="color: green;">{{messege_from_child()}}</i></p>
+    <app-child [parent_input]="this.parent_messege()" (child_messege_event)="HandleChildMessage($event)"></app-child>
+</div>
