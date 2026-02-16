@@ -1,3 +1,5 @@
+/*this is component level css file. it does not impact other components*/
+
 header {
     background-color: black;
     color: white;
